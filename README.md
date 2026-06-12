@@ -8,6 +8,8 @@
 
 A hands-on bootcamp for learning Kong Metering & Billing - from usage tracking through pricing models, invoicing, and payment collection.
 
+![Bootcamp Recap](./public/bootcamp_recap.png)
+
 ## Overview
 
 | | |
