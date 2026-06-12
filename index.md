@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Kong Metering & Billing"
   text: "Bootcamp"
-  tagline: "Meter, price, and monetize every API call and LLM token — from usage tracking through invoicing and payment collection."
+  tagline: "Meter, price, and monetize every API call and LLM token - from usage tracking through invoicing and payment collection."
   image:
     src: /kong-logomark-lime.svg
     alt: Kong Metering & Billing

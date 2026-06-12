@@ -27,7 +27,7 @@ curl -s -H "Authorization: Bearer $KONNECT_TOKEN" \
 
 | Tool | Purpose | Minimum |
 |---|---|---|
-| Kong Konnect | Platform with Metering & Billing | — |
+| Kong Konnect | Platform with Metering & Billing | - |
 | jq | JSON inspection | 1.6+ |
 
 ## Labs

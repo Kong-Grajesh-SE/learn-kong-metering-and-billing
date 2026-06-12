@@ -26,7 +26,7 @@ curl -s -H "Authorization: Bearer $KONNECT_TOKEN" \
 
 | Tool | Purpose | Minimum |
 |---|---|---|
-| Kong Konnect | Platform with Metering & Billing | — |
+| Kong Konnect | Platform with Metering & Billing | - |
 | Stripe account | Payment processing | test mode |
 | jq | JSON inspection | 1.6+ |
 

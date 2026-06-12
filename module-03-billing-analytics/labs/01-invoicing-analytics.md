@@ -29,7 +29,7 @@ export STRIPE_TEST_KEY="sk_test_your_key_here"
 
 ## Step 1 - Configure billing profiles (10 min)
 
-**What it does:** Billing profiles define how and when customers are invoiced — billing address, payment terms, tax settings, and invoice schedule.
+**What it does:** Billing profiles define how and when customers are invoiced - billing address, payment terms, tax settings, and invoice schedule.
 
 ### Create a billing profile
 
@@ -197,7 +197,7 @@ curl -s "$KONNECT_API/v1/metering/llm-costs?provider=openai&model=gpt-4o" \
 ```
 
 ::: tip Cost attribution for AI Gateway
-When you use the AI LLM meter type, Konnect automatically looks up per-token costs from this database. This means your invoices show accurate dollar amounts based on actual provider pricing — no manual price updates needed when providers change rates.
+When you use the AI LLM meter type, Konnect automatically looks up per-token costs from this database. This means your invoices show accurate dollar amounts based on actual provider pricing - no manual price updates needed when providers change rates.
 :::
 
 **✅ Checkpoint.** You can query the LLM cost database for per-token pricing across providers and models.
@@ -206,7 +206,7 @@ When you use the AI LLM meter type, Konnect automatically looks up per-token cos
 
 ## Step 6 - Create custom price overrides (5 min)
 
-**What it does:** Overrides standard pricing for specific customers — useful for enterprise deals, promotional pricing, or volume discounts.
+**What it does:** Overrides standard pricing for specific customers - useful for enterprise deals, promotional pricing, or volume discounts.
 
 ### Create a price override
 

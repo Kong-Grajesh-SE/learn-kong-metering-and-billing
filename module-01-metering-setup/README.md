@@ -33,7 +33,7 @@ jq --version
 
 | Tool | Purpose | Minimum |
 |---|---|---|
-| Kong Konnect | Platform with Metering & Billing | — |
+| Kong Konnect | Platform with Metering & Billing | - |
 | Kong Gateway or AI Gateway | Traffic source | 3.14+ |
 | jq | JSON inspection | 1.6+ |
 

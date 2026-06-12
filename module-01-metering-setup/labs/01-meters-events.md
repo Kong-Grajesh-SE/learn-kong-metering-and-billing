@@ -50,7 +50,7 @@ export KONNECT_API="https://us.api.konghq.com"
 | **Generic** | Custom API ingestion | Compute hours, storage GB, custom units |
 
 ::: tip Start with API Gateway meters
-API Gateway meters are the easiest to set up — they automatically collect events from your Kong Gateway traffic. AI LLM meters work similarly for AI Gateway. Generic meters require you to ingest events via API.
+API Gateway meters are the easiest to set up - they automatically collect events from your Kong Gateway traffic. AI LLM meters work similarly for AI Gateway. Generic meters require you to ingest events via API.
 :::
 
 **✅ Checkpoint.** You understand the three meter types and how events flow from collectors into meters.
@@ -103,7 +103,7 @@ echo "API Meter ID: $API_METER_ID"
 
 ## Step 3 - Create an AI LLM meter (10 min)
 
-**What it does:** Creates a meter that tracks LLM token usage from your AI Gateway — prompt tokens, completion tokens, and total tokens per model and provider.
+**What it does:** Creates a meter that tracks LLM token usage from your AI Gateway - prompt tokens, completion tokens, and total tokens per model and provider.
 
 ### Create the AI meter
 
@@ -140,7 +140,7 @@ echo "AI Meter ID: $AI_METER_ID"
 
 ## Step 4 - Create a generic meter (5 min)
 
-**What it does:** Creates a generic meter for custom usage tracking. Generic meters accept events via the ingestion API — useful for tracking compute hours, storage, or any custom metric.
+**What it does:** Creates a generic meter for custom usage tracking. Generic meters accept events via the ingestion API - useful for tracking compute hours, storage, or any custom metric.
 
 ### Create a generic meter
 
@@ -211,7 +211,7 @@ curl -s -X POST "$KONNECT_API/v1/metering/meters/$GENERIC_METER_ID/events" \
 ### Test deduplication
 
 ```bash
-# Re-send the same event (same id "evt-001") — it should be deduplicated
+# Re-send the same event (same id "evt-001") - it should be deduplicated
 curl -s -X POST "$KONNECT_API/v1/metering/meters/$GENERIC_METER_ID/events" \
   -H "Authorization: Bearer $KONNECT_TOKEN" \
   -H "Content-Type: application/json" \
@@ -231,7 +231,7 @@ curl -s -X POST "$KONNECT_API/v1/metering/meters/$GENERIC_METER_ID/events" \
 ```
 
 ::: tip Deduplication prevents double-billing
-Every event needs a unique `id`. If you ingest the same `id` twice, it's counted only once. This is critical for reliable billing — network retries won't cause duplicate charges.
+Every event needs a unique `id`. If you ingest the same `id` twice, it's counted only once. This is critical for reliable billing - network retries won't cause duplicate charges.
 :::
 
 **✅ Checkpoint.** Events are ingested. Re-sending the same event ID doesn't create duplicates.

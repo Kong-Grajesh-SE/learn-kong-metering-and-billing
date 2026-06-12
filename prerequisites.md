@@ -13,9 +13,9 @@ This bootcamp requires a Kong Konnect account with the Metering & Billing featur
 
 | Tool | Purpose | Min Version | Install |
 |---|---|---|---|
-| **Kong Konnect** | Platform with Metering & Billing | — | [cloud.konghq.com](https://cloud.konghq.com) |
+| **Kong Konnect** | Platform with Metering & Billing | - | [cloud.konghq.com](https://cloud.konghq.com) |
 | **Kong Gateway or AI Gateway** | Traffic source for metering | 3.14+ | From earlier bootcamps |
-| **Stripe account** | Payment processing (Lab 03) | — | [stripe.com](https://stripe.com) (free test mode) |
+| **Stripe account** | Payment processing (Lab 03) | - | [stripe.com](https://stripe.com) (free test mode) |
 | **jq** | Parse JSON responses | 1.6+ | `brew install jq` |
 | **Node.js** | Run the docs site locally | 20 LTS | `brew install node@20` |
 
@@ -26,7 +26,7 @@ You should have completed at least one of:
 - [API Gateway Bootcamp](../api-gateway-bootcamp/) - Services, Routes, Plugins, Consumers
 - [AI Gateway Bootcamp](../ai-gateway-bootcamp/) - AI proxy configuration with LLM traffic
 
-Having live traffic flowing through your gateway is essential — metering needs events to track.
+Having live traffic flowing through your gateway is essential - metering needs events to track.
 
 ## Konnect setup
 

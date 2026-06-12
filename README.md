@@ -6,7 +6,7 @@
 
 > 💰 **Meter, price, and monetize every API call and LLM token.**
 
-A hands-on bootcamp for learning Kong Metering & Billing — from usage tracking through pricing models, invoicing, and payment collection.
+A hands-on bootcamp for learning Kong Metering & Billing - from usage tracking through pricing models, invoicing, and payment collection.
 
 ## Overview
 
