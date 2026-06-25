@@ -38,7 +38,7 @@ curl -s -H "Authorization: Bearer $KONNECT_TOKEN" \
 
 ## Suggested reading
 
-- [Pricing models](https://developer.konghq.com/metering-and-billing/pricing/)
+- [Pricing models](https://developer.konghq.com/metering-and-billing/pricing-models/)
 - [Entitlements](https://developer.konghq.com/metering-and-billing/entitlements/)
 
 ## Exit ticket

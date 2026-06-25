@@ -38,8 +38,8 @@ curl -s -H "Authorization: Bearer $KONNECT_TOKEN" \
 
 ## Suggested reading
 
-- [Invoicing](https://developer.konghq.com/metering-and-billing/invoicing/)
-- [Stripe integration](https://developer.konghq.com/metering-and-billing/stripe/)
+- [Invoicing](https://developer.konghq.com/metering-and-billing/billing-invoicing/)
+- [Stripe integration](https://developer.konghq.com/metering-and-billing/stripe-integration/)
 - [Cost analytics](https://developer.konghq.com/metering-and-billing/cost-analytics/)
 
 ## Exit ticket

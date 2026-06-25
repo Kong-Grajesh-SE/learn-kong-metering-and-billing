@@ -279,4 +279,4 @@ curl -s "$KONNECT_API/v1/metering/meters" \
 
 ---
 
-*[← Module Overview](/module-01-metering-setup/) · [Next → Lab 02: Pricing & Plans](/module-01-metering-setup/labs/02-pricing-plans)*
+*[← Module Overview](/module-01-metering-setup/) · [Next → Lab 02: Pricing & Plans](/module-02-pricing-plans/labs/01-plans-subscriptions)*

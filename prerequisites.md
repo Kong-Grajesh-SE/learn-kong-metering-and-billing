@@ -65,4 +65,4 @@ curl -s http://localhost:8000/flights | head -5
 
 ---
 
-*Ready? Start with [Lab 01 - Metering Setup →](/module-01-api-monetization/labs/01-metering-setup)*
+*Ready? Start with [Lab 01 - Metering Setup →](/module-01-metering-setup/labs/01-meters-events)*

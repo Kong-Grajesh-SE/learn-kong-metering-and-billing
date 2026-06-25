@@ -46,7 +46,7 @@ jq --version
 ## Suggested reading
 
 - [Metering & Billing overview](https://developer.konghq.com/metering-and-billing/)
-- [Meters and events](https://developer.konghq.com/metering-and-billing/meters/)
+- [Meters and events](https://developer.konghq.com/metering-and-billing/metering/)
 
 ## Exit ticket
 
